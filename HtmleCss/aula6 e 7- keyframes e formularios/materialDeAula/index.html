@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cadastro</title>
+    <!-- Bibliotecas -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <!-- personal links -->
     <link rel="stylesheet" href="styles/geral.css">
     <link rel="stylesheet" href="styles/index.css">
@@ -16,8 +18,8 @@
                 <div id="banner"></div>
             </div>
             <div id="formulario">
-                <h3>CADASTRO</h3>
-                <form action="https://www.google.com" method="post">
+                <h3 class="animate__animated animate__pulse">CADASTRO</h3>
+                <form action="pages/home.html" method="post">
                     <!-- nome -->
                     <label for="nomeDeUsuario">Digite seu nome :</label>
                     <input required type="text" id="nomeDeUsuario">
@@ -33,6 +35,8 @@
                     
                     <button type="submit">CADASTRAR</button>
                     <button type="reset">RESETAR</button>
+
+                    <a href="pages/login.html">Já tem uma conta? Faça o login!</a>
                     
                     <!-- outros inputs -->
                     <!-- <input type="file">
