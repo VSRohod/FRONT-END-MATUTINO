@@ -1,0 +1,103 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+:root{
+    --corPrimaria : rgb(24, 101, 143) ;
+    --corSecundaria : rgb(10, 126, 2);
+    --branco : rgb(242, 236, 236);
+    --preto : rgb(27, 26, 26);
+    --ativo : rgb(199, 194, 194);
+}
+
+h1{
+    color: var(--branco);
+}
+
+header, footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 60px;
+    background-color: var(--corPrimaria);
+}
+
+#tabelaExcel {
+    width: 400px;
+    margin: 30px;
+    border-collapse: collapse;
+}
+
+th, td{
+    padding: 5px;
+    border: 1px solid var(--preto);
+    user-select: none;
+}
+
+th{
+   background-color: var(--corPrimaria); 
+   color: var(--branco);
+}
+
+td{
+    background-color: var(--branco);
+}
+
+th:hover{
+    background-color: var(--corSecundaria);
+    cursor: pointer;
+}
+
+td:active{
+    background-color: var(--ativo) ;
+    color: var(--corSecundaria);
+    border: solid var(--corSecundaria) 1px;
+}
+
+input{
+    width: 300px;
+    padding: 10px;
+    border-radius: 10px;
+    transition: 1s;
+    background-color: var(--branco);
+}
+
+input:focus{
+    transition: 1s;
+    background-color: var(--corPrimaria);
+    color: var(--branco);
+    border-radius: 0px;
+}
+
+th:empty{
+    background-color: transparent;
+    border: none;
+    cursor: auto;
+}
+
+#tabelaProdutos{
+    width: 600px;
+    margin: 30px;
+    border-collapse: collapse;
+}
+
+#apenasScroll{
+    width: 1px;
+    height: 1000px;
+}
+
+header{
+    position: fixed;
+    top: -1px;
+}
+
+thead{
+    position: sticky;
+    top : 58px ;
+}
+
+main{
+    padding-top: 40px;
+}
