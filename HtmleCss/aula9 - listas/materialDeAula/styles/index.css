@@ -1,0 +1,41 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+:root{
+    --primaria : rgb(104, 128, 235) ;
+    --branco : #fff ;
+}
+
+main{
+    width: 80%;
+    padding: 30px;
+    margin: 10px auto;
+}
+
+header{
+    width: 100%;
+    display: flex;
+    background-color: var(--primaria);
+    padding: 10px 0px;
+    justify-content: space-between;
+}
+
+#logo img{
+    height: 30px;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    height: 100%;
+    align-items: center;
+    padding: 0px 20px;
+}
+
+nav a{
+    text-decoration: none;
+    color: var(--branco);
+}
