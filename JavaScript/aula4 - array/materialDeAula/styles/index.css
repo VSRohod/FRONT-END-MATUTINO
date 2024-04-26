@@ -1,0 +1,29 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    background-color: gray;
+}
+
+main{
+    width: 80%;
+    background-color: white;
+    margin: 40px auto;
+    border-radius: 20px;
+    box-shadow: 10px 10px rgba(0, 0, 0, 0.281);
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.posts{
+    width: 200px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+}
