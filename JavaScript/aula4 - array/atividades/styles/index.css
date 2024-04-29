@@ -1,0 +1,12 @@
+:root{
+    --primario : rgb(0, 170, 255) ;
+    --secundaria : rgb(68, 0, 128) ;
+}
+
+header{
+    background-color: var(--primario);
+}
+
+.nav-link, .navbar-nav .nav-link.active, .navbar-nav .nav-link.show, .navbar-brand {
+    color: white;
+}
