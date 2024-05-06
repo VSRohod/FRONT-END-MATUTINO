@@ -1,0 +1,12 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+.topico{
+    width: 80%;
+    padding: 20px;
+    margin: 30px auto;
+    background-color: rgb(156, 185, 240);
+    border-radius: 10px;
+}
