@@ -1,0 +1,27 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+button{
+    margin: 20px;
+    padding: 10px;
+    background-color: crimson;
+    color: white;
+}
+
+.caixa{
+    width: 200px;
+    height: 200px;
+    background-color: blueviolet;
+}
+
+.temaClaro{
+    background-color: white;
+    color: black;
+}
+
+.temaEscuro{
+    background-color: black;
+    color: white;
+}
