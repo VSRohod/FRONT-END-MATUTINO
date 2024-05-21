@@ -1,0 +1,16 @@
+{
+    "carros" : [
+        {
+          "Nome do carro" : "Gol",
+          "Cor": "Branco",
+          "Marca": "Ferrari",
+          "Ano": "2024"  
+        },
+        {
+            "Nome do carro" : "Palio",
+            "Cor": "Azul",
+            "Marca": "Ford",
+            "Ano": "1975"  
+        }
+    ]
+}
